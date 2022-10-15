@@ -81,7 +81,7 @@ body {
 }
 
 h1 {
-    font-size: large;
+    font-size: 100%;
     color: rgb(118, 118, 216);
     display: flex;
     justify-content: center;
