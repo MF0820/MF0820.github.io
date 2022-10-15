@@ -19,11 +19,11 @@ body {
 .h4item {
     padding: 10px;
     margin: 10px;
-    border-radius: 10px;
-    width: 800px;
+    border-radius: 50px;
+    width: 100%;
     text-align: center;
     background-color: #FFF;
-    height: 200px;
+    height: 30%;
 }
 .h5box {
     /* display: flex; */
@@ -33,11 +33,11 @@ body {
 }
 
 .h5item {
-    font-size: small;
+    font-size: 200%;
     padding: 5px;
     margin: 5px;
     border-radius: 10px;
-    width: 100px;
+    width: 200px;
     text-align: center;
     background-color: #FFF;
     height: 75px;
@@ -51,18 +51,19 @@ body {
 }
 
 .h6item1 {
+    font-size: 200%;
     padding: 10px;
-    margin: 10px;
+    margin: 1em;
     border-radius: 10px;
-    width: 150px;
+    width: 250px;
     text-align: center;
     background-color: #FFF;
-    height: 15px;
+    height: 35px;
 }
 
 .h6item2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
+    font-size: 200%;
     /* display: inline; */
     position: relative;
     padding: 0.5em 1em;
@@ -71,7 +72,7 @@ body {
     background: #668ad8;/*ボタン色*/
     color: #FFF;
     box-shadow: 0 3px 0 #627295;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 .h6item2:active {
     /*ボタンを押したとき*/
@@ -81,7 +82,7 @@ body {
 }
 
 h1 {
-    font-size: 100%;
+    font-size: 400%;
     color: rgb(118, 118, 216);
     display: flex;
     justify-content: center;
@@ -89,13 +90,13 @@ h1 {
 
 h4 {
     /* flex-direction: column; */
-    font-size: small;
+    font-size: 150%;
     background-color: #df5f5f;
 }
 
 .btn-square {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
+    font-size: 100%;
     /* display: inline; */
     position: relative;
     padding: 0.5em 1em;
@@ -104,7 +105,7 @@ h4 {
     background: #668ad8;/*ボタン色*/
     color: #FFF;
     box-shadow: 0 3px 0 #627295;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 .btn-square:active {
     /*ボタンを押したとき*/
@@ -119,20 +120,20 @@ table{
     margin-bottom:200px;
 }
 th{
-    font-size: small;
+    font-size: 150%;
     background-color: #527fe0;
     padding:10px;
-    width: 100px;
+    width: 150px;
     border-top: 1px solid #000; 
     border-left: 1px solid #000;
     border-right: 1px solid #000;
     border-bottom: 3px solid #000000;
 }
 td{
-    font-size: small;
+    font-size: 100%;
     background-color: #FFF;
     padding:10px;
-    width: 100px;
+    width: 150px;
     border-top: 1px solid #000; 
     border-left: 1px solid #000;
     border-right: 1px solid #000;
